@@ -14,7 +14,7 @@ I started with a simple scan:
 ---
 ## Step 2: First extraction attempt
 
-I tried the standard extraction:
+I tried the standard extraction, but it didn’t extract all the files:
 
 ```binwalk -e PurpleThing.jpeg```
 
