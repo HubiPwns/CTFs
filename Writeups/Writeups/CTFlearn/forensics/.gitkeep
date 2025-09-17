@@ -1,13 +1,1 @@
-# Binwalk Challenge – CTFLearn Writeup
 
-## Introduction
-In this writeup, I will explain how I solved the **“Binwalk” challenge** on CTFLearn and captured the flag.  
-The challenge file required some **hidden data **, so I decided to use the tool **`binwalk`**.  
-
-## File Analysis
-At first glance, the file seemed normal, but I suspected it might contain **hidden data**.  
-To investigate, I used **`binwalk`**, a tool for analyzing binary files.  
-> `binwalk` helps find **hidden files, compressed data, or other embedded information** inside a file’s structure.  
-
-```bash
-binwalk PurpleThing.jpeg
