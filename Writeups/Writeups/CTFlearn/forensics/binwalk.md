@@ -9,7 +9,7 @@ I started with a simple scan:
 
 ```binwalk PurpleThing.jpeg```
 
-![[Zrzut ekranu 2025-09-17 181202 2.png]]
+<img width="1072" height="348" alt="Zrzut ekranu 2025-09-17 181202" src="https://github.com/user-attachments/assets/6401f2fe-d5a6-48f9-b279-f5f9ef8a9fdb" />
 
 ---
 ## Step 2: First extraction attempt
@@ -18,7 +18,7 @@ I tried the standard extraction:
 
 ```binwalk -e PurpleThing.jpeg```
 
-![[Zrzut ekranu 2025-09-17 181626 1.png]]
+<img width="1225" height="232" alt="Zrzut ekranu 2025-09-17 181626" src="https://github.com/user-attachments/assets/d90942c7-5909-4110-84cc-13c7b452a62f" />
 
 ---
 ## Step 3: Forcing extraction of PNG files
@@ -26,7 +26,7 @@ To get everything out, I used the following command:
 
 ```binwalk -e -D 'png:png' PurpleThing.jpeg```
 
-![[Zrzut ekranu 2025-09-17 181843.png]]
+<img width="1060" height="247" alt="Zrzut ekranu 2025-09-17 181843" src="https://github.com/user-attachments/assets/9b45d8eb-e4c5-4965-ad40-6628224d9302" />
 
 This successfully extracted additional files.
 
