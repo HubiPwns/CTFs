@@ -1,4 +1,4 @@
-# Binwalk Writeup
+# **Binwalk Writeup**
 
 This challenge required analyzing a file with **binwalk** to extract hidden data and recover the flag.
 
