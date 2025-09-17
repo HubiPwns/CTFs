@@ -1,0 +1,11 @@
+# Binwalk Writeup
+
+This challenge required analyzing a file with **binwalk** to extract hidden data and recover the flag.
+
+---
+
+## **Step 1: Initial analysis**
+I started with a simple scan:
+
+```bash
+binwalk PurpleThing.jpeg
