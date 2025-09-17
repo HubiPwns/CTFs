@@ -5,7 +5,7 @@ This challenge required analyzing a file with **binwalk** to extract hidden data
 ---
 
 ## Step 1: Initial analysis
-I started with a simple scan:
+I started with a simple binwalk scan:
 
 ```binwalk PurpleThing.jpeg```
 
