@@ -1,5 +1,7 @@
 The first thing I did was an nmap scan
-<img width="657" height="263" alt="Pasted image 20250817150407 1" src="https://github.com/user-attachments/assets/370e9cdd-c88e-48a8-936d-60d413a20b21" />
+
+<img width="657" height="263" alt="Pasted image 20250817150407 1" src="https://github.com/user-attachments/assets/370e9cdd-c88e-48a8-936d-60d413a20b21"/>
+
 we have port 8080, and it is vulnerable to an exploit
 
 CVE-2025–24893
