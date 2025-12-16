@@ -17,7 +17,8 @@ After looking around the xwiki files, we found a password in
 /etc/xwiki/hibernate.cfg.xml
 
 <img width="1251" height="158" alt="Pasted image 20250817152623" src="https://github.com/user-attachments/assets/83d7317a-0383-4711-82cb-f5e2c8bbaf1c" />
-theEd1t0rTeam99
+
+```theEd1t0rTeam99```
 
 Thanks to this, we have access to oliver and we can obtain the user flag
 <img width="963" height="595" alt="Pasted image 20250817153438" src="https://github.com/user-attachments/assets/4c0adfa1-4ee0-450e-a09e-f92d62349dc1" />
